@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splashscreen">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="256dp"
+        android:src="@drawable/chatapplogo">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/maintext"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="28dp"
+        android:text="from"
+        android:textColor="#1E1D1D">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="186dp"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="32dp"
+        android:text="BHALERAO SHIVANI
+                      BHASME PRANALI"
+        android:textColor="#FD3B2D"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</RelativeLayout>

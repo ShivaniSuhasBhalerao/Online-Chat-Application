@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendImage"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_sendimage"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_sendimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/changenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#ED2B1D"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Send Image"
+        android:textColor="@color/white">
+
+    </android.widget.Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not Press back button"
+        android:id="@+id/tv_dont"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:visibility="invisible"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:id="@+id/pb_sendimage"
+        android:visibility="invisible">
+
+
+    </ProgressBar>
+
+
+
+</LinearLayout>
